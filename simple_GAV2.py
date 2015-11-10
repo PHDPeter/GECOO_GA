@@ -21,6 +21,7 @@ def making_pop(POPsize):
             t2=0
             #shuffle the cards
             random.shuffle(pack)
+            
             #randomly sort cards in to to piles (T1 and T2)
             for e in xrange(0,(len(pack))):
                 card = pack[e]
